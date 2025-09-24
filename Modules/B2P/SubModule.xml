@@ -1,0 +1,26 @@
+<Module>
+  <Name value="B2P"/><Id value="B2P"/><Version value="0.0.1"/>
+  <SingleplayerModule value="true"/><MultiplayerModule value="true"/>
+  <DependedModules>
+    <DependedModule Id="Native" DependentVersion="*"/>
+    <DependedModule Id="SandBoxCore" DependentVersion="*"/>
+    <DependedModule Id="CustomBattle" DependentVersion="*"/>
+    <DependedModule Id="SandBox" DependentVersion="*"/>
+    <DependedModule Id="StoryMode" DependentVersion="*"/>
+  </DependedModules>
+  <SubModules>
+    <SubModule>
+      <Name value="B2P Client"/>
+      <DLLName value="B2P.Client.dll"/>
+      <SubModuleClassType value="B2P.Client.SubModule"/>
+    </SubModule>
+    <SubModule>
+      <Name value="B2P Server"/>
+      <DLLName value="B2P.Server.dll"/>
+      <SubModuleClassType value="B2P.Server.SubModule"/>
+    </SubModule>
+  </SubModules>
+  <Xmls>
+    <XmlNode><XmlName id="strings" path="ModuleData/b2p_strings"/></XmlNode>
+  </Xmls>
+</Module>

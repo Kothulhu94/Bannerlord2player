@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "transport": "udp",
+  "port": 7210,
+  "tickRate": 20,
+  "pausePolicy": "p1_runs_p2_can_pause_battle_autopause",
+  "logLevel": "info"
+}
